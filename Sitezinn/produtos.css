@@ -1,0 +1,140 @@
+.troca{
+    background-color: rgb(224, 222, 222);
+    color: rgb(0, 0, 0);
+    padding-left:15px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.col-sm-4{
+    padding:10px;
+    margin: auto;
+    
+}
+.navbar{
+    border-bottom:15px solid rgb(219, 216, 216);
+}
+.nav-item{
+    margin-right: 40px;
+    font-size: 20px;
+}
+.icone{
+    margin-left: 15px;
+}
+
+.navbar-brand-logo{
+    padding-left:20px;
+    margin-left:10px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+.card-chinelo{
+    padding-top:115px;
+}
+
+
+.comprar{
+    padding: 10px;
+    background-color:rgb(105, 105, 243);
+    color: white;
+    text-decoration: none;
+    border-radius: 17px 17px;
+}
+
+.input{
+    display:inline-block;
+    font-size:20px;
+    box-sizing: border-box;
+
+}
+
+input[type="text"]{
+    background: #fff;
+    width: 340px;
+    height:40px;
+    border: 1px solid rgb(179, 179, 179);
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    width: 120px;
+    height:40px;
+    outline: none;
+    cursor: pointer;
+    background: rgb(105, 105, 243);
+    color: white;
+    
+}
+
+.inputs{
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--dark-blue);
+
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    #logo {
+        position: absolute;
+        left: 70px;
+    }
+
+    
+
+    ul li {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: inline-block;
+        margin: 0 10px;
+
+    }
+
+    .card-body{
+        max-width: 960px;
+        padding-left:2em;
+        padding: right 2em; ;
+    }
+}
+
+@media screen and (max-width: 578px) {
+
+    .card-body{
+        max-width: 900px;
+        padding-left:2em;
+        padding: right 2em; ;
+    }
+}
+
+html{
+    animation-name: fade; 
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }
+    
