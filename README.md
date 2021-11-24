@@ -1,8 +1,5 @@
 # MercadoSurf
 ### Projeto website loja virtual ###
-- Desenvolvido para praticar os conceitos de responsividade 
-- Utilização das tecnologias HTML e CSS (Bootstrap)
-
 
  
  ![mercadosurfEntrada](https://user-images.githubusercontent.com/83267524/122668065-c70bd480-d18c-11eb-8555-6ccc3af41717.png)
